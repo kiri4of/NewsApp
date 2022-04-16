@@ -13,6 +13,8 @@
 		F7DC7C012785E495007C3CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC7BFF2785E495007C3CF4 /* Main.storyboard */; };
 		F7DC7C032785E498007C3CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC7C022785E498007C3CF4 /* Assets.xcassets */; };
 		F7DC7C062785E498007C3CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DC7C042785E498007C3CF4 /* LaunchScreen.storyboard */; };
+		F7DC7C0E2785E9B4007C3CF4 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DC7C0D2785E9B4007C3CF4 /* APICaller.swift */; };
+		F7DC7C102785F154007C3CF4 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DC7C0F2785F154007C3CF4 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F7DC7C022785E498007C3CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7DC7C052785E498007C3CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7DC7C072785E498007C3CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DC7C0D2785E9B4007C3CF4 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		F7DC7C0F2785F154007C3CF4 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				F7DC7BF92785E495007C3CF4 /* AppDelegate.swift */,
 				F7DC7BFB2785E495007C3CF4 /* SceneDelegate.swift */,
 				F7DC7BFD2785E495007C3CF4 /* ViewController.swift */,
+				F7DC7C0F2785F154007C3CF4 /* NewsTableViewCell.swift */,
+				F7DC7C0D2785E9B4007C3CF4 /* APICaller.swift */,
 				F7DC7BFF2785E495007C3CF4 /* Main.storyboard */,
 				F7DC7C022785E498007C3CF4 /* Assets.xcassets */,
 				F7DC7C042785E498007C3CF4 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				F7DC7BFE2785E495007C3CF4 /* ViewController.swift in Sources */,
 				F7DC7BFA2785E495007C3CF4 /* AppDelegate.swift in Sources */,
+				F7DC7C102785F154007C3CF4 /* NewsTableViewCell.swift in Sources */,
 				F7DC7BFC2785E495007C3CF4 /* SceneDelegate.swift in Sources */,
+				F7DC7C0E2785E9B4007C3CF4 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
